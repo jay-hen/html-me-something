@@ -1,8 +1,29 @@
-#rcorners {
+img {
     border-radius: 15px;
     background: paper.jpg);
     background-position: center;
     padding: 20px;
-    width: 200px;
-    height: 150px;
+    width: 400px;
+    height: 300px;
+  }
+
+body {
+    background-image: url("images/background.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+   }
+
+h1 {
+    font-family: "Verdana";
+    font-size: 40px;
+}
+
+h2 {
+    font-family: "Verdana";
+    font-size: 30px;
+}
+
+p {
+    font-family: "Verdana";
+    font-size: 14px;
   }
