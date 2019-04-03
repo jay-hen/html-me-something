@@ -1,11 +1,25 @@
-img {
-    border-radius: 15px;
-    background: paper.jpg);
-    background-position: center;
-    padding: 20px;
-    width: 400px;
-    height: 300px;
-  }
+#leaves {
+  border-radius: 15px 50px;
+  background: rgb(70, 55, 95);
+  padding: 10px; 
+  width: 400px;
+  height: 300px; 
+  display: block;
+  margin: auto;
+}
+
+.info {
+  border-radius: 15px 50px;
+  background: rgb(161, 142, 192); 
+  width: 600px;
+  height: 150px; 
+  font-family: "Verdana";
+  font-size: 14px;
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+  
+}
 
 body {
     background-image: url("images/background.jpg");
@@ -15,15 +29,42 @@ body {
 
 h1 {
     font-family: "Verdana";
-    font-size: 40px;
+    font-size: 50px;
+    color: black;
+    text-shadow: 3px 3px 3px #2A1846;
+    text-align: center;
   }
 
 h2 {
     font-family: "Verdana";
-    font-size: 30px;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px #2A1846;
+    text-align: center;
   }
 
-p {
-    font-family: "Verdana";
-    font-size: 14px;
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2A1846;
+  color: white;
+  text-align: center;
   }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(70, 55, 95); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
